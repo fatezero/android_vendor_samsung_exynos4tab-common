@@ -109,8 +109,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos4tab-common/proprietary/gps/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
     vendor/samsung/exynos4tab-common/proprietary/gps/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/exynos4tab-common/proprietary/gps/bin/gps.cer:system/bin/gps.cer \
-    vendor/samsung/exynos4tab-common/proprietary/gps/etc/gps.xml:system/etc/gps.xml
+    vendor/samsung/exynos4tab-common/proprietary/gps/bin/gps.cer:system/bin/gps.cer
 
 # LPM
 PRODUCT_COPY_FILES += \
