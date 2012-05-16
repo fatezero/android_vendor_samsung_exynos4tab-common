@@ -111,23 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos4tab-common/proprietary/gps/bin/gpsd:system/bin/gpsd \
     vendor/samsung/exynos4tab-common/proprietary/gps/bin/gps.cer:system/bin/gps.cer
 
-# LPM
-PRODUCT_COPY_FILES += \
-    vendor/samsung/exynos4tab-common/proprietary/lpm/bin/charging_mode:system/bin/charging_mode \
-    vendor/samsung/exynos4tab-common/proprietary/lpm/bin/immvibed:system/bin/immvibed \
-    vendor/samsung/exynos4tab-common/proprietary/lpm/bin/playlpm:system/bin/playlpm \
-    vendor/samsung/exynos4tab-common/proprietary/lpm/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
-    vendor/samsung/exynos4tab-common/proprietary/lpm/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
-    vendor/samsung/exynos4tab-common/proprietary/lpm/media/battery_charging_0.qmg:system/media/battery_charging_0.qmg \
-    vendor/samsung/exynos4tab-common/proprietary/lpm/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
-    vendor/samsung/exynos4tab-common/proprietary/lpm/media/battery_charging_20.qmg:system/media/battery_charging_20.qmg \
-    vendor/samsung/exynos4tab-common/proprietary/lpm/media/battery_charging_40.qmg:system/media/battery_charging_40.qmg \
-    vendor/samsung/exynos4tab-common/proprietary/lpm/media/battery_charging_60.qmg:system/media/battery_charging_60.qmg \
-    vendor/samsung/exynos4tab-common/proprietary/lpm/media/battery_charging_80.qmg:system/media/battery_charging_80.qmg \
-    vendor/samsung/exynos4tab-common/proprietary/lpm/media/battery_error.qmg:system/media/battery_error.qmg \
-    vendor/samsung/exynos4tab-common/proprietary/lpm/media/chargingwarning.qmg:system/media/chargingwarning.qmg \
-    vendor/samsung/exynos4tab-common/proprietary/lpm/media/Disconnected.qmg:system/media/Disconnected.qmg
-
 # hwaccel firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos4tab-common/proprietary/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin
