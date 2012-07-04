@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos4tab-common/proprietary/audio/lib/libsamsungAcousticeq.so:system/lib/libsamsungAcousticeq.so \
     vendor/samsung/exynos4tab-common/proprietary/audio/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
     vendor/samsung/exynos4tab-common/proprietary/audio/lib/libyamahasrc.so:system/lib/libyamahasrc.so \
+    vendor/samsung/exynos4tab-common/proprietary/audio/lib/libbt-aptx-4.0.3.so:system/lib/libbt-aptx-4.0.3.so \
     vendor/samsung/exynos4tab-common/proprietary/audio/etc/audio/LVVEFS_Rx_Configuration.txt:system/etc/audio/LVVEFS_Rx_Configuration.txt \
     vendor/samsung/exynos4tab-common/proprietary/audio/etc/audio/LVVEFS_Tx_Configuration.txt:system/etc/audio/LVVEFS_Tx_Configuration.txt \
     vendor/samsung/exynos4tab-common/proprietary/audio/etc/audio/Rx_ControlParams_BLUETOOTH_HEADSET.txt:system/etc/audio/Rx_ControlParams_BLUETOOTH_HEADSET.txt \
@@ -67,6 +68,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos4tab-common/proprietary/audio/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
     vendor/samsung/exynos4tab-common/proprietary/audio/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
     vendor/samsung/exynos4tab-common/proprietary/audio/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
+
+# CAMERA
+PRODUCT_COPY_FILES += \
+    vendor/samsung/exynos4tab-common/proprietary/camera/lib/hw/camera.exynos4.so:system/lib/hw/camera.exynos4.so \
+    vendor/samsung/exynos4tab-common/proprietary/camera/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so
 
 # EGL
 PRODUCT_COPY_FILES += \
