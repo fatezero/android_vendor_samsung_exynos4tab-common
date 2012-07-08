@@ -71,7 +71,6 @@ PRODUCT_COPY_FILES += \
 
 # SENSORS
 PRODUCT_COPY_FILES += \
-    vendor/samsung/exynos4tab-common/proprietary/sensors/lib/hw/sensors.exynos4.so:system/lib/hw/sensors.exynos4.so \
     vendor/samsung/exynos4tab-common/proprietary/sensors/lib/libakm.so:system/lib/libakm.so \
     vendor/samsung/exynos4tab-common/proprietary/sensors/lib/libmllite.so:system/lib/libmllite.so \
     vendor/samsung/exynos4tab-common/proprietary/sensors/lib/libmlplatform.so:system/lib/libmlplatform.so \
